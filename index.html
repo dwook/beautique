@@ -1,0 +1,123 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Document</title>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/meyer-reset/2.0/reset.min.css">
+   
+    <link href="https://fonts.googleapis.com/css?family=Roboto" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/earlyaccess/notosanskr.css" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/Swiper/4.0.7/css/swiper.min.css">
+    <link rel="stylesheet" href="css/style.css">
+</head>
+<body>
+   
+    <div class="visual">
+        <div class="container">
+            <div class="swiper-container">
+                <div class="swiper-wrapper">
+                  <div class="swiper-slide"></div>
+                  <div class="swiper-slide"></div>
+                  <div class="swiper-slide"></div>
+                </div>
+                <!-- Add Arrows -->
+                <div class="container2">
+                    <div class="swiper-button-next"></div>
+                    <div class="swiper-button-prev"></div>
+                </div>
+                <div class="swiper-pagination"></div>
+                
+            </div>
+
+            
+        </div>
+    </div>
+    <div class="intro">
+        <p>멘트추가예정</p>
+    </div>
+    <div class="products">
+        <div class="title">
+            <p><img src="img/h_title_en.png" alt="beautique DAILY TOOTHPASTE"></p>
+            <p><img src="img/h_title_ko.png" alt="뷰티끄 데일리 치약"></p>
+        </div>
+        <div class="container3">
+            <div class="product p01">
+                <div class="p_img">
+                    <img src="img/p01_jasmin.jpg" alt="jasmin">
+                </div>
+                <div class="p_info">
+                    <p class="tit">JASMINE</p>
+                    <p class="desc">100g</p>
+                    <p class="more"><a href="#">자세히 보기</a></p>
+                </div>
+            </div>
+            <div class="product p02">
+                <div class="p_img">
+                    <img src="img/p02_apple.jpg" alt="apple">
+                </div>
+                <div class="p_info">
+                    <p class="tit">APPLE MINT</p>
+                    <p class="desc">100g</p>
+                    <p class="more"><a href="#">자세히 보기</a></p>
+                </div>
+            </div>
+            <div class="product p03">
+                <div class="p_img">
+                    <img src="img/p03_lemon.jpg" alt="lemon">
+                </div>
+                <div class="p_info">
+                    <p class="tit">LEMON</p>
+                    <p class="desc">100g</p>
+                    <p class="more"><a href="#">자세히 보기</a></p>
+                </div>
+            </div>
+
+        </div>
+    </div>
+    <div class="outro">
+        <div class="container3">
+            <div class="sub1">
+                <img src="img/h_sub1.png" alt="3가지향, 쟈스민, 애플민트, 레몬">
+            </div>
+            <div class="img">
+                <img src="img/main03.jpg" alt="">
+            </div>
+            <div class="sub2">
+                <img src="img/h_sub2.png" alt="뷰티끄 데일리 치약">
+            </div>
+        </div>
+    </div>
+    <div class="footer"></div>
+
+ 
+</body>
+    <script src="https://code.jquery.com/jquery-3.2.1.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/Swiper/4.0.7/js/swiper.min.js"></script>
+    <script>
+        
+        var swiper = new Swiper('.swiper-container', {
+
+            centeredSlides: true,
+            paginationClickable: true,
+            loop:true,
+            autoplay: {
+              delay: 2500,
+              disableOnInteraction: false,
+            },
+            pagination: {
+              el: '.swiper-pagination',
+              clickable: true,
+            },
+            navigation: {
+              nextEl: '.swiper-button-next',
+              prevEl: '.swiper-button-prev',
+            },
+        });
+        
+
+        
+    </script>
+
+</html>
